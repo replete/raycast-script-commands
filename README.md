@@ -13,5 +13,6 @@ After adding to Raycast, set up aliases `oc,ov`..
 * Open Vault `ov vaultname`
 
 #### TODO:
-* [ ] Daily entry script command, default title formatted YYYY-MM-DD
-* [ ] Single vault versions of script commands, perhaps reading default vaultname from a folder .txt file
+* [ ] Daily Note script command, default title formatted YYYY-MM-DD e.g `od vaultname content` 
+* [ ] Make vaultname optional and read default value (for single vault people) from disk
+* [ ] Make single-vault versions, which would require `.template` editing for the default vault or reading from external file
