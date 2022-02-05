@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Open Obsidian Vault
+# @raycast.title Obsidian: Open Vault
 # @raycast.mode silent
 
 # Optional parameters:
@@ -15,10 +15,11 @@
 
 # Documentation:
 # @raycast.description Open Obsidian Vault
-# @raycast.author Yiyao Wei
+# @raycast.author Phil Ricketts
 # @raycast.authorURL https://github.com/replete
 
-# Would recommend adding 'ov' as an alias within Raycast Extensions settings
+# Recommendations:
+# Add 'ov' as an alias within Raycast Extensions settings
 
 
 open "obsidian://open?vault=$1"
