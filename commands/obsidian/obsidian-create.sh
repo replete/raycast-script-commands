@@ -11,7 +11,7 @@
 # Optional parameters:
 # @raycast.icon ./images/obsidian.png
 # @raycast.argument1 { "type": "text", "placeholder": "Vault", "optional": false, "percentEncoded": true}
-# @raycast.argument2 { "type": "text", "placeholder": "Note", "optional": false, "percentEncoded": true}
+# @raycast.argument2 { "type": "text", "placeholder": "Content", "optional": false, "percentEncoded": true}
 # @raycast.argument3 { "type": "text", "placeholder": "Title", "optional": true, "percentEncoded": true}
 # @raycast.packageName Obsidian
 
