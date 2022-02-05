@@ -7,10 +7,11 @@ This repository contains some script commands for use with Raycast.
 
 ### Obsidian
 
-After adding to Raycast, set up aliases `oc,ov`..
+After adding to Raycast, set up aliases `ov,oc,od`..
 
-* Create Entry `oc vaultname content title*`
 * Open Vault `ov vaultname`
+* Create Entry `oc vaultname content title*`
+* Create Daily Note `od vaultname content*`
 
 #### TODO:
 * [x] Daily Note script command, default title formatted YYYY-MM-DD e.g `od vaultname content` 
