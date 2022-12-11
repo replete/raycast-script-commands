@@ -2,18 +2,43 @@
 
 This repository contains some script commands for use with Raycast.
 
+## Installation
+
+1) Copy this repository locally
+    * [Download a zip file](https://github.com/replete/raycast-script-commands/archive/refs/heads/main.zip) or
+    `git clone git@github.com:replete/raycast-script-commands.git`
+2) Add the new script commands directory to RayCast
+    * Activate Raycast, open `Extensions`
+    * Search for and select `Script Commands`
+    * Click `Add Directories` then select this folder
+    ![Raycast Add directories screenshot](images/install-add-directory.png)
+3) Add aliases for each script
+    * In Raycast, search Extensions for `Replete`
+    * Disable scripts you don't want to use
+    * Enter aliases for the script commands you want to use
+    ![Raycast Add directories screenshot](images/install-aliases.png)
+4) Edit variables inside `config.sh` accordingly
 
 ## Script Commands
 
 ### Obsidian
 
-After adding to Raycast, set up aliases `ov,oc,od`..
-
-* Open Vault `ov vaultname`
-* Create Entry `oc vaultname content title*`
-* Create Daily Note `od vaultname content*`
-
-#### TODO:
-* [x] Daily Note script command, default title formatted YYYY-MM-DD e.g `od vaultname content` 
-* [ ] Make vaultname optional and read default value (for single vault people) from disk
-* [ ] Make single-vault versions, which would require `.template` editing for the default vault or reading from external file
+* **Obsidian: Open Vault** `ov vaultname`
+* **Obsidian: Create Entry** `oc` `vaultname`  `entry text (optional)` `title text (optional)` 
+    *If file already exists, entry text is appended after a new line.*
+    *After saving, entry is opened in Obsidian.*
+* **Obsidian: Create Entry (silent)** `ocs` `vaultname`  `entry text` `title text (optional)` 
+    *If file already exists, entry text is appended after a new line.* 
+    *Entry is saved silently.*
+* **Obsidian: Create Daily Note** `od` `entry text`
+    *If file already exists, entry text is appended after a new line.* 
+    *After saving, entry is opened in Obsidian.*
+* **Obsidian: Create Daily Note (silent)** `ods` `entry text (optional)`
+    *If file already exists, entry text is appended after a new line. 
+    *Entry is saved silently.*
+* **Obsidian: Create Daily Note in Vault** `odv` `vaultname` `entry text (optional)`
+    *If file already exists, entry text is appended after a new line.* 
+    *After saving, entry is opened in Obsidian.*
+* **Obsidian: Create Daily Note in Vault (silent)** `odvs` `vaultname` `entry text`
+    *If file already exists, entry text is appended after a new line.* 
+    *Entry is saved silently.*

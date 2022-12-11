@@ -11,7 +11,7 @@
 # Optional parameters:
 # @raycast.icon ./images/obsidian.png
 # @raycast.argument1 { "type": "text", "placeholder": "Vault name" }
-# @raycast.packageName Obsidian
+# @raycast.packageName Replete Raycast
 
 # Documentation:
 # @raycast.description Open Obsidian Vault
