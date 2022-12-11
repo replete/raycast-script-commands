@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Obsidian: Create Entry
+# @raycast.title Obsidian: Create
 # @raycast.mode silent
 
 # Optional parameters:

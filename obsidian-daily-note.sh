@@ -5,7 +5,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Obsidian: Create Daily Note
+# @raycast.title Obsidian: Daily Note
 # @raycast.mode silent
 
 # Optional parameters:

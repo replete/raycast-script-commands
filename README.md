@@ -1,6 +1,6 @@
 # Replete Raycast Script Commands
 
-This repository contains some handy Raycast script commands. I'll add more as I migrate over from Alfred.
+This repository contains some handy Raycast script commands. I'll add more as I migrate over
 
 ## Installation
 
@@ -23,22 +23,18 @@ This repository contains some handy Raycast script commands. I'll add more as I 
 
 ### Obsidian
 
+Uses Obsidian's URI schema, so Obsidian will open each time.
+If file already exists, entry text is appended after a new line.
+
 * **Obsidian: Open Vault** `ov vaultname`
 * **Obsidian: Create Entry** `oc` `vaultname`  `entry text (optional)` `title text (optional)` 
-    *If file already exists, entry text is appended after a new line.*
-    *After saving, entry is opened in Obsidian.*
-* **Obsidian: Create Entry (silent)** `ocs` `vaultname`  `entry text` `title text (optional)` 
-    *If file already exists, entry text is appended after a new line.* 
-    *Entry is saved silently.*
 * **Obsidian: Create Daily Note** `od` `entry text`
-    *If file already exists, entry text is appended after a new line.* 
-    *After saving, entry is opened in Obsidian.*
-* **Obsidian: Create Daily Note (silent)** `ods` `entry text (optional)`
-    *If file already exists, entry text is appended after a new line. 
-    *Entry is saved silently.*
 * **Obsidian: Create Daily Note in Vault** `odv` `vaultname` `entry text (optional)`
-    *If file already exists, entry text is appended after a new line.* 
-    *After saving, entry is opened in Obsidian.*
-* **Obsidian: Create Daily Note in Vault (silent)** `odvs` `vaultname` `entry text`
-    *If file already exists, entry text is appended after a new line.* 
-    *Entry is saved silently.*
+
+
+### OBS
+
+Remote control of OBS via websockets.
+Configure in `config.sh`
+
+* **OBS: Switch Scene** `obss` `scene name`
