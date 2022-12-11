@@ -1,6 +1,6 @@
-# Raycast Script Commands
+# Replete Raycast Script Commands
 
-This repository contains some script commands for use with Raycast.
+This repository contains some handy Raycast script commands. I'll add more as I migrate over from Alfred.
 
 ## Installation
 
