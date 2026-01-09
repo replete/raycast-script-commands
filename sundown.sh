@@ -18,4 +18,4 @@
 # Recommendations:
 # Add 'sun' as an alias within Raycast Extensions settings
 
-/Applications/OBS.app/Contents/MacOS/OBS --profile "SOL" --collection "SOL" --startrecording
+sundown.sh
